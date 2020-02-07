@@ -11,6 +11,5 @@ Future loadPhase(idPhase) async {
   String jsonPhase = await _loadPhaseAsset(idPhase);
   final jsonResponse = json.decode(jsonPhase);
   PhaseModel phase = new PhaseModel.fromJson(jsonResponse);
-  // print(phase.images[0].imagePlacePath);
   return phase;
 }
