@@ -59,6 +59,16 @@ flutter:
     - assets/img/star/incomplet_2.png
     - assets/img/star/incomplet_3.png
     - assets/img/star/lock.png
+    - assets/img/phases/phases_1/camel1.png
+    - assets/img/phases/phases_1/camel2.png
+    - assets/img/phases/phases_1/giraffe1.png
+    - assets/img/phases/phases_1/giraffe2.png
+    - assets/img/phases/phases_1/horse1.png
+    - assets/img/phases/phases_1/horse2.png
+    - assets/img/phases/phases_1/zebra1.png
+    - assets/img/phases/phases_1/zebra2.png
+    - assets/img/phases/phases_1/bg.jpg
+    - assets/json/phase_1.json
 
   # To add assets to your application, add an assets section, like this:
   # assets:

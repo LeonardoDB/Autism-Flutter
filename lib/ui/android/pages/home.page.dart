@@ -1,4 +1,4 @@
-import 'package:Autismo/ui/android/pages/phases.page.dart';
+import 'package:Autismo/ui/android/pages/phase-list.page.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -56,7 +56,7 @@ class RowsAndColumns extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                              builder: (context) => PhasesPage(),
+                              builder: (context) => PhasesListPage(),
                             ),
                           );
                         },

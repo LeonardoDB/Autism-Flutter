@@ -1,7 +1,7 @@
 import 'package:Autismo/ui/shared/widgets/phase/phase-list.widget.dart';
 import 'package:flutter/material.dart';
 
-class PhasesPage extends StatelessWidget {
+class PhasesListPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

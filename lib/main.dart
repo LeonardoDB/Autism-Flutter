@@ -1,6 +1,6 @@
+import 'package:Autismo/ui/android/pages/home.page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'ui/android/pages/home.page.dart';
 import 'package:flutter_statusbar_manager/flutter_statusbar_manager.dart';
 
 void main() => runApp(MyApp());

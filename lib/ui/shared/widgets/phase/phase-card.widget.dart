@@ -1,14 +1,14 @@
-import 'package:Autismo/ui/android/pages/phases/phase_2.page.dart';
+import 'package:Autismo/ui/android/pages/phase.page.dart';
 import 'package:flutter/material.dart';
 
 class PhaseCard extends StatelessWidget {
-  final int idPhases;
-  final int starPhases;
+  final int idPhase;
+  final int starPhase;
   final bool block;
 
   PhaseCard({
-    @required this.idPhases,
-    @required this.starPhases,
+    @required this.idPhase,
+    @required this.starPhase,
     @required this.block,
   });
 
@@ -20,12 +20,14 @@ class PhaseCard extends StatelessWidget {
         opacity: block ? 0.7 : 1.0,
         child: GestureDetector(
           onTap: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => Phase2Page(),
-              ),
-            );
+            block
+                ? Container()
+                : Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => PhasePage(idPhase: idPhase),
+                    ),
+                  );
           },
           child: Column(
             children: <Widget>[
@@ -38,7 +40,7 @@ class PhaseCard extends StatelessWidget {
                   color: Color(0xFFFF5757),
                 ),
                 child: Text(
-                  idPhases.toString(),
+                  idPhase.toString(),
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 35.0,
@@ -51,7 +53,7 @@ class PhaseCard extends StatelessWidget {
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     image: ExactAssetImage(
-                      _getImageStarPhases(block, starPhases),
+                      _getImageStarPhases(block, starPhase),
                     ),
                     fit: BoxFit.fitHeight,
                   ),
@@ -65,10 +67,10 @@ class PhaseCard extends StatelessWidget {
   }
 }
 
-String _getImageStarPhases(block, starPhases) {
+String _getImageStarPhases(block, starPhase) {
   if (block) {
     return "assets/img/star/lock.png";
   } else {
-    return "assets/img/star/incomplet_" + starPhases.toString() + ".png";
+    return "assets/img/star/incomplet_" + starPhase.toString() + ".png";
   }
 }

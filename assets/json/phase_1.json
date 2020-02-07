@@ -1,0 +1,46 @@
+{
+    "id": 1,
+    "imageBackground": "assets/img/phases/phases_1/bg.jpg",
+    "images": [
+        {
+            "imageName": "camel",
+            "imagePlacePath": "assets/img/phases/phases_1/camel1.png",
+            "imageSocketPath": "assets/img/phases/phases_1/camel2.png",
+            "imageHeight": 130,
+            "imageWidth": 130,
+            "accept": false,
+            "dx": 50,
+            "dy": 50
+        },
+        {
+            "imageName": "giraffe",
+            "imagePlacePath": "assets/img/phases/phases_1/giraffe1.png",
+            "imageSocketPath": "assets/img/phases/phases_1/giraffe2.png",
+            "imageHeight": 130,
+            "imageWidth": 130,
+            "accept": false,
+            "dx": 170,
+            "dy": 50
+        },
+        {
+            "imageName": "zebra",
+            "imagePlacePath": "assets/img/phases/phases_1/zebra1.png",
+            "imageSocketPath": "assets/img/phases/phases_1/zebra2.png",
+            "imageHeight": 130,
+            "imageWidth": 130,
+            "accept": false,
+            "dx": 270,
+            "dy": 50
+        },
+        {
+            "imageName": "horse",
+            "imagePlacePath": "assets/img/phases/phases_1/horse1.png",
+            "imageSocketPath": "assets/img/phases/phases_1/horse2.png",
+            "imageHeight": 130,
+            "imageWidth": 130,
+            "accept": false,
+            "dx": 400,
+            "dy": 50
+        }
+    ]
+}
