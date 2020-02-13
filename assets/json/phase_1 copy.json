@@ -12,7 +12,7 @@
             "imagePlaceDx": 50,
             "imagePlaceDy": 50,
             "imageSocketDx": 50,
-            "imageSocketDy": 200
+            "imageSocketDy": 50
         },
         {
             "imageName": "giraffe",
@@ -24,7 +24,7 @@
             "imagePlaceDx": 170,
             "imagePlaceDy": 50,
             "imageSocketDx": 170,
-            "imageSocketDy": 200
+            "imageSocketDy": 50
         },
         {
             "imageName": "zebra",
@@ -36,7 +36,7 @@
             "imagePlaceDx": 270,
             "imagePlaceDy": 50,
             "imageSocketDx": 270,
-            "imageSocketDy": 200
+            "imageSocketDy": 50
         },
         {
             "imageName": "horse",
@@ -48,7 +48,7 @@
             "imagePlaceDx": 400,
             "imagePlaceDy": 50,
             "imageSocketDx": 400,
-            "imageSocketDy": 200
+            "imageSocketDy": 50
         }
     ]
 }

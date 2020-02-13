@@ -2,11 +2,13 @@ import 'package:Autismo/ui/android/pages/phase.page.dart';
 import 'package:flutter/material.dart';
 
 class PhaseCard extends StatelessWidget {
+  final String documentID;
   final int idPhase;
   final int starPhase;
   final bool block;
 
   PhaseCard({
+    @required this.documentID,
     @required this.idPhase,
     @required this.starPhase,
     @required this.block,
@@ -25,7 +27,7 @@ class PhaseCard extends StatelessWidget {
                 : Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => PhasePage(idPhase: idPhase),
+                      builder: (context) => PhasePage(documentID: documentID),
                     ),
                   );
           },

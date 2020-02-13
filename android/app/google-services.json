@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "24353084962",
+    "firebase_url": "https://app-autismo-35155.firebaseio.com",
+    "project_id": "app-autismo-35155",
+    "storage_bucket": "app-autismo-35155.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24353084962:android:b100860c63c493b4555c7b",
+        "android_client_info": {
+          "package_name": "com.example.shopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24353084962-t18d327gp02lpcm5m4v8qju4aiv3615a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4nsOb6HM2OBlmJIjDbkwiyBjKATVaMXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24353084962-t18d327gp02lpcm5m4v8qju4aiv3615a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

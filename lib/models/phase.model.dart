@@ -34,8 +34,10 @@ class Images {
   int imageHeight;
   int imageWidth;
   bool accept;
-  int dx;
-  int dy;
+  int imagePlaceDx;
+  int imagePlaceDy;
+  int imageSocketDx;
+  int imageSocketDy;
 
   Images(
       {this.imageName,
@@ -44,8 +46,10 @@ class Images {
       this.imageHeight,
       this.imageWidth,
       this.accept,
-      this.dx,
-      this.dy});
+      this.imagePlaceDx,
+      this.imagePlaceDy,
+      this.imageSocketDx,
+      this.imageSocketDy});
 
   Images.fromJson(Map<String, dynamic> json) {
     imageName = json['imageName'];
@@ -54,8 +58,10 @@ class Images {
     imageHeight = json['imageHeight'];
     imageWidth = json['imageWidth'];
     accept = json['accept'];
-    dx = json['dx'];
-    dy = json['dy'];
+    imagePlaceDx = json['imagePlaceDx'];
+    imagePlaceDy = json['imagePlaceDy'];
+    imageSocketDx = json['imageSocketDx'];
+    imageSocketDy = json['imageSocketDy'];
   }
 
   Map<String, dynamic> toJson() {
@@ -66,8 +72,10 @@ class Images {
     data['imageHeight'] = this.imageHeight;
     data['imageWidth'] = this.imageWidth;
     data['accept'] = this.accept;
-    data['dx'] = this.dx;
-    data['dy'] = this.dy;
+    data['imagePlaceDx'] = this.imagePlaceDx;
+    data['imagePlaceDy'] = this.imagePlaceDy;
+    data['imageSocketDx'] = this.imageSocketDx;
+    data['imageSocketDy'] = this.imageSocketDy;
     return data;
   }
 }

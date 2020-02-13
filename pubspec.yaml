@@ -28,7 +28,8 @@ dependencies:
   intl: ^0.15.8
   shared_preferences: ^0.5.3
   flutter_statusbar_manager : any
-
+  cloud_firestore: ^0.11.0+2
+  flutter_spinkit: ^3.1.0
 
 dev_dependencies:
   flutter_test:
@@ -68,6 +69,13 @@ flutter:
     - assets/img/phases/phases_1/zebra1.png
     - assets/img/phases/phases_1/zebra2.png
     - assets/img/phases/phases_1/bg.jpg
+    - assets/img/phases/phases_1/bg_1.jpg
+    - assets/img/phases/phases_1/bg_2.jpg
+    - assets/img/phases/phases_1/bg_3.jpg
+    - assets/img/phases/phases_1/bg_4.jpg
+    - assets/img/phases/phases_1/bg_5.jpg
+    - assets/img/phases/phases_1/bg_6.jpg
+    - assets/img/phases/phases_1/bg_7.jpg
     - assets/json/phase_1.json
 
   # To add assets to your application, add an assets section, like this:
